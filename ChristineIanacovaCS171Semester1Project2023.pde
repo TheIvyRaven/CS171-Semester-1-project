@@ -81,7 +81,8 @@ void draw () {
 
   //splash screen = 0
   if (screen == 0) {
-    image(Background0, 0, 0);
+    imageMode(CENTER);
+    image(Background0, 640, 360);
     fill(0);
     rect(250, 245, 852, 50);
     fill(#D33535);
